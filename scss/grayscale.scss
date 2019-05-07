@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #ffc107;
+  color: $primary;
   &:focus,
   &:hover {
     text-decoration: none;
-    color: darken(#ffc107, 20%);
+    color: darken($primary, 20%);
   }
 }
 
@@ -27,11 +27,11 @@ a {
 }
 
 .bg-primary {
-  background-color: #ffc107 !important;
+  background-color: $primary !important;
 }
 
 .text-primary {
-  color: #ffc107 !important;
+  color: $primary !important;
 }
 
 footer {
